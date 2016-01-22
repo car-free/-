@@ -1,0 +1,5 @@
+var swipe = Swipe($('#content'));
+$('.button').click(function(){
+	 swipe.scrollTo($("#content").width() * 2, 5000);
+});
+
